@@ -8,6 +8,6 @@ spec:
   clusterName: acm-1
   git:
     syncRepo: git@github.com:benking84/acm.git
-    syncBranch: master
+    syncBranch: 1.0.0
     secretType: none
     policyDir: "acme-corp"
