@@ -1,0 +1,13 @@
+apiVersion: addons.sigs.k8s.io/v1alpha1
+kind: ConfigManagement
+metadata:
+  name: config-management
+  namespace: config-management-system
+spec:
+  # clusterName is required and must be unique among all managed clusters
+  clusterName: my-cluster
+  git:
+    syncRepo: git@github.com:benking84/acm.git
+    syncBranch: 1.0.0
+    #secretType: ssh
+    policyDir: "acme-corp"
