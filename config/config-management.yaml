@@ -5,9 +5,9 @@ metadata:
   namespace: config-management-system
 spec:
   # clusterName is required and must be unique among all managed clusters
-  clusterName: my-cluster
+  clusterName: acm-1
   git:
     syncRepo: git@github.com:benking84/acm.git
-    syncBranch: 1.0.0
+    syncBranch: master
     #secretType: ssh
     policyDir: "acme-corp"
