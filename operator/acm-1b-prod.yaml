@@ -9,5 +9,5 @@ spec:
   git:
     syncRepo: git@github.com:benking84/acm.git
     syncBranch: master
-    secretType: none
+    secretType: ssh
     policyDir: "acme_corp"
